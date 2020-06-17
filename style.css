@@ -1,0 +1,151 @@
+body {
+	background: #DDF3F5;
+	font-family: 'Raleway', sans-serif;
+}
+
+.text-center {
+text-align: center;
+}
+
+h1 {
+text-align: center;
+color: #1F4068;
+font-size: 60px;
+}
+
+h2 {
+text-align: center;
+color: #1F4068;
+font-size: 30px;
+}
+
+.my-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1F4068;
+}
+
+.logo {
+  height: 60px;
+  margin: 5px;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link {
+  margin: 10px 30px;
+  color: #DDF3F5;
+}
+
+.pres {
+text-align: center;
+color: white;
+}
+
+.presentation {
+background-color: #1F4068;
+margin: 10%;
+border: 5px solid lightblue;
+border-radius: 10px;
+box-shadow: 5px 5px 5px grey;
+
+}
+
+.textes {
+	color: white;
+}
+
+.iles {
+	color: white;
+	text-align: center;
+
+}
+
+.img1 {
+	object-fit: cover;
+	width: 700px;
+	height: 400px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.lieu {
+text-align: center;
+color: #1F4068;
+font-size: 30px;
+}
+
+.video {
+text-align: center;
+color: #1F4068;
+font-size: 30px;
+}
+
+.photo {
+	object-fit: cover;
+	width: 700px;
+	height: 400px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.my-btn {
+	background: #1F4068;
+	padding: 30px;
+	margin: 30px;
+	display: inline-block;
+	border: 2px solid lightblue;
+	border-radius:10px;
+	box-shadow: 5px 5px 5px grey;
+	color: #DDF3F5;
+	font-weight: bold;
+}
+
+.footer {
+  background: #1F4068;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: white;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: white;
+  opacity: 100%;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: white;
+}
+
+.contact{
+	background: #EB3732;
+	padding: 15px;
+	margin: 15px;
+	display: inline-block;
+	border: 2px solid black;
+	border-radius: 3px;
+	color: white;
+}
+
+.modal-body{
+	color: black;
+}
+
+.contact:hover{
+	color:black;
+}
